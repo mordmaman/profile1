@@ -149,6 +149,11 @@ header .menuIcon a img {
     -moz-transition: max-height 0.5s;
     transition: max-height 0.5s;
   }
+  header .menu ul {
+    padding: 0;
+    margin: 0 auto;
+    line-height: 60px;
+    }
   header .menu ul li {
     display: block;
     width: 100%;
