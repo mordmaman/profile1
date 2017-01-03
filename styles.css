@@ -1,0 +1,33 @@
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+.container{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+    float: left;
+}
+nav{
+    
+    float: right;
+}
+
