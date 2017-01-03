@@ -106,3 +106,18 @@ h1{
 nav a{
     text-decoration: none;
 }
+
+/*
+  ========================================
+  Hero
+  ========================================
+*/
+
+.hero {
+    background: url(hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    background-position: center; 
+}
