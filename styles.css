@@ -118,6 +118,18 @@ nav a{
     background-size: cover;
     width: 100%;
     height: auto;
-    min-height: 500px;
+    height: 500px;
     background-position: center; 
+    text-align: center;
+}
+
+h2{
+    font-size: 68px;
+    line-height: 44px;
+    padding-top: 150px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 46px;
+    color: white;
 }
