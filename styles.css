@@ -89,13 +89,11 @@ body{
     margin-left: 60px;
     float: left;
 }
-.col-2-3 {
-    float: right;
-    line-height: 60px;
-}
-nav{
-    padding-right: 60px;
-}
+/*
+  ========================================
+  Hamburger menu
+  ========================================
+*/
 
 h1{
     font-size: 25px;
@@ -103,23 +101,15 @@ h1{
     padding: 18px 18px;
 }
 
-nav a{
-    text-decoration: none;
-}
-
-/*
-  ========================================
-  Hamburger menu
-  ========================================
-*/
-
 header .menu ul {
   padding: 0;
   margin: 0;
+  float: right;
+  line-height: 60px;
+  padding-right: 60px;
 }
 header .menu ul li {
   display: inline-block;
-  float: left;
   list-style: none;
   padding: 0 0 0 5px;
   margin: 0;
