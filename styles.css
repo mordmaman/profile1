@@ -212,3 +212,23 @@ h3{
     font-size: 46px;
     color: white;
 }
+
+/*
+  ========================================
+  section 1
+  ========================================
+*/
+.section1 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section1_left{
+  float: left;
+  width: 50%;
+}
+
+.section1_right{
+  float: right;
+  width: 50%;
+}
