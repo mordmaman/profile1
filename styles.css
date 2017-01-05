@@ -132,7 +132,7 @@ header .menuIcon a img {
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 785px) {
   header .menu {
     max-height: 0;
     overflow: hidden;
@@ -153,9 +153,10 @@ header .menuIcon a img {
     padding: 0;
     margin: 0 auto;
     line-height: 60px;
+    float: none;
     }
   header .menu ul li {
-    display: block;
+    display: inline-block;
     width: 100%;
     background: #000;
     border-top: 1px solid #4d4d4d;
