@@ -242,11 +242,33 @@ button:hover{
 
 /*
   ========================================
+  Skill set
+  ========================================
+*/
+
+.skillSet{
+  margin-top: 40px;
+}
+
+.mssDiv{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mss{
+  font-size: 42px;
+}
+
+
+/*
+  ========================================
   Media queries
   ========================================
 */
 
 @media only screen and (max-width: 785px) {
+
+  /*dropdown menu */
   header .menu {
     max-height: 0;
     overflow: hidden;
@@ -298,6 +320,7 @@ button:hover{
     margin-right: 10px;
   }
 
+/*Section 1 */
   .section1_left{
   float: none;
   width: 100%;
