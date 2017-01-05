@@ -249,6 +249,10 @@ h3{
   margin-top: 7px;
 }
 
+.accordion1:hover {
+    text-decoration: underline;
+}
+
 .fa-plus{
   margin-right: 15px;
 }
