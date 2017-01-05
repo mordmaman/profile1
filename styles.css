@@ -247,18 +247,25 @@ button:hover{
 */
 
 .skillSet{
-  margin-top: 40px;
+  margin: 40px 45px 0 45px;
 }
 
 .mssDiv{
-  margin: 0 auto;
+  margin-bottom: 25px;
   text-align: center;
+
 }
 
 .mss{
   font-size: 42px;
 }
 
+.meter{
+  margin: 0 auto;
+  width: 75%;
+  height: 45px;
+  background-color: black;
+}
 
 /*
   ========================================
