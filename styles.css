@@ -150,16 +150,19 @@ header .menuIcon a img {
     transition: max-height 0.5s;
   }
   header .menu ul {
+    z-index: 2;
     padding: 0;
     margin: 0 auto;
     line-height: 60px;
     float: none;
+    position: relative;
     }
   header .menu ul li {
     display: inline-block;
     width: 100%;
     background: #000;
     border-top: 1px solid #4d4d4d;
+
   }
   header .menu ul li:hover {
     background: #999;
@@ -189,6 +192,7 @@ header .menuIcon a img {
     height: 500px;
     background-position: center; 
     text-align: center;
+    z-index: 1;
 }
 
 h2{
