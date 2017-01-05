@@ -176,6 +176,13 @@ header .menuIcon a img {
   header .menuIcon {
     display: inline-block;
   }
+  header .menuIcon a{
+    padding: 10px 0;
+    text-decoration: none;
+  }
+  header .menuIcon i{
+    margin-right: 10px;
+  }
 }
 
 /*
