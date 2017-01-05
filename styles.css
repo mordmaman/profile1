@@ -218,6 +218,12 @@ h3{
   section 1
   ========================================
 */
+
+  /*
+    ========================================
+    section 1 Left
+    ========================================
+  */
 .section1 {
     margin: 0 auto;
     width: 100%;
@@ -234,19 +240,18 @@ h3{
 }
 
 #accordion{
-  margin-top:35px;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 25px 45px 0 45px;
 }
 
 .accordion1{
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
   padding-left: 35px;
   background-color: #F02475;
   border-radius: 5px;
   margin-bottom: 7px;
   margin-top: 7px;
+  font-size: 24px;
 }
 
 .accordion1:hover {
@@ -255,4 +260,25 @@ h3{
 
 .fa-plus{
   margin-right: 15px;
+}
+
+    /*
+      ========================================
+      section 1 Right
+      ========================================
+    */
+.info{
+  margin: 25px 45px 0 45px;
+}
+
+.nameBig{
+  font-size:42px;
+}
+
+.jobSpec{
+  font-size: 28px;
+}
+
+button{
+  font-size: 28px;
 }
