@@ -268,7 +268,7 @@ h3{
       ========================================
     */
 .info{
-  margin: 25px 45px 0 45px;
+  margin: 40px 45px 0 45px;
 }
 
 .nameBig{
@@ -280,5 +280,13 @@ h3{
 }
 
 button{
-  font-size: 28px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #F27435;
+  border-radius: 5px;
+  border: 0px;
+}
+
+button:hover{
+  background-color: #f0641d;
 }
