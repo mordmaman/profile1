@@ -139,15 +139,15 @@ header .menuIcon a img {
     float: none;
     text-align: center;
     width: 100%;
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    transition: max-height 0.5s;
+    -webkit-transition: max-height 1.5s;
+    -moz-transition: max-height 1.5s;
+    transition: max-height 1.5s;
   }
   header .menu.menuOpen {
     max-height: 1000px;
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    transition: max-height 0.5s;
+    -webkit-transition: max-height 1.5s;
+    -moz-transition: max-height 1.5s;
+    transition: max-height 1.5s;
   }
   header .menu ul {
     z-index: 2;
