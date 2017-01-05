@@ -26,16 +26,15 @@
             </div>
         </nav>
     </header>
-    <!--<section class ="hero">
-        <!--hero-->
-        <!--<h2>Mord Maman</h2>
+    <section class ="hero">
+        <h2>Mord Maman</h2>
         <h3>Pleased to meet you</h3>
-    </section>-->
+    </section>
     <section class="section1 group">
         <section class="section1_left">
            <div id="accordion">
-                <h4>Section 1</h4>
-                <div>
+                <h4 class="accordion1"><i class="fa fa-plus" aria-hidden="true"></i>Section 1</h4>
+                <div class="accordionText">
                     <p>
                     Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
                     ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
@@ -43,7 +42,7 @@
                     odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
                     </p>
                 </div>
-                <h4>Section 2</h4>
+                <h4 class="accordion1"><i class="fa fa-plus" aria-hidden="true"></i>Section 2</h4>
                 <div>
                     <p>
                     Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
@@ -67,8 +66,11 @@
                 e.preventDefault();
             });
         });
-        $( function() {
-            $( "#accordion" ).accordion();
+        $(function() {
+            $( "#accordion" ).accordion({
+                collapsible:true,
+                active: false
+            });
         } );
     </script>
 </body>
