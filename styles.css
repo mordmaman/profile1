@@ -132,58 +132,7 @@ header .menuIcon a img {
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 785px) {
-  header .menu {
-    max-height: 0;
-    overflow: hidden;
-    float: none;
-    text-align: center;
-    width: 100%;
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    transition: max-height 0.5s;
-  }
-  header .menu.menuOpen {
-    max-height: 1000px;
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    transition: max-height 0.5s;
-  }
-  header .menu ul {
-    z-index: 2;
-    padding: 0;
-    margin: 0 auto;
-    line-height: 60px;
-    float: none;
-    position: relative;
-    }
-  header .menu ul li {
-    display: inline-block;
-    width: 100%;
-    background: #000;
-    border-top: 1px solid #4d4d4d;
 
-  }
-  header .menu ul li:hover {
-    background: #999;
-  }
-  header .menu ul li a {
-    color: #fff;
-    text-shadow: #848484 0px 1px 2px;
-    padding: 10px 0;
-    width: 100%;
-  }
-  header .menuIcon {
-    display: inline-block;
-  }
-  header .menuIcon a{
-    padding: 10px 0;
-    text-decoration: none;
-  }
-  header .menuIcon i{
-    margin-right: 10px;
-  }
-}
 
 /*
   ========================================
@@ -289,4 +238,74 @@ button{
 
 button:hover{
   background-color: #f0641d;
+}
+
+/*
+  ========================================
+  Media queries
+  ========================================
+*/
+
+@media only screen and (max-width: 785px) {
+  header .menu {
+    max-height: 0;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+  }
+  header .menu.menuOpen {
+    max-height: 1000px;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+  }
+  header .menu ul {
+    z-index: 2;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 60px;
+    float: none;
+    position: relative;
+    }
+  header .menu ul li {
+    display: inline-block;
+    width: 100%;
+    background: #000;
+    border-top: 1px solid #4d4d4d;
+
+  }
+  header .menu ul li:hover {
+    background: #999;
+  }
+  header .menu ul li a {
+    color: #fff;
+    text-shadow: #848484 0px 1px 2px;
+    padding: 10px 0;
+    width: 100%;
+  }
+  header .menuIcon {
+    display: inline-block;
+  }
+  header .menuIcon a{
+    padding: 10px 0;
+    text-decoration: none;
+  }
+  header .menuIcon i{
+    margin-right: 10px;
+  }
+
+  .section1_left{
+  float: none;
+  width: 100%;
+}
+
+.section1_right{
+  float: none;
+  width: 100%;
+}
+
 }
