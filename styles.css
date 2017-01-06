@@ -328,6 +328,11 @@ button:hover{
   overflow-y: hidden; 
 }
 
+.my-slider li {
+  font-size: 28px;
+  color: white;
+}
+
 /*
   ========================================
   Media queries
