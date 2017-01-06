@@ -247,7 +247,7 @@ button:hover{
 */
 
 .skillSet{
-  margin: 40px 45px 0 45px;
+  margin: 40px 45px 45px; 45px;
 }
 
 .mssDiv{
@@ -264,7 +264,46 @@ button:hover{
   margin: 0 auto;
   width: 75%;
   height: 45px;
-  background-color: black;
+  background-color: #fdfaee;
+  border: 1px solid black;
+}
+
+.meterText{
+  line-height: 45px;
+  font-size: 22px;
+  color: white;
+}
+
+.jquery{
+  width: 30%;
+  height: 100%;
+  background-color: orange;
+  float: left;
+  text-align: center;
+}
+
+.html{
+  width: 25%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+  text-align: center;
+}
+
+.css{
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  float: left;
+  text-align: center;
+}
+
+.php{
+  width: 15%;
+  height: 100%;
+  background-color: blueviolet;
+  float: left;
+  text-align: center;
 }
 
 /*
@@ -272,6 +311,12 @@ button:hover{
   Media queries
   ========================================
 */
+
+@media only screen and (max-width: 1000px) {
+  .meterText{
+    font-size: 16px;
+  }
+}
 
 @media only screen and (max-width: 785px) {
 
@@ -336,6 +381,12 @@ button:hover{
 .section1_right{
   float: none;
   width: 100%;
+}
+
+/*skill set*/
+
+.meterText{
+  font-size: 16px;
 }
 
 }
