@@ -329,8 +329,13 @@ button:hover{
 }
 
 .my-slider li {
+  line-height: 300px;
   font-size: 28px;
   color: white;
+}
+
+.unslider-nav, .unslider-arrow{
+  display: none;
 }
 
 /*
