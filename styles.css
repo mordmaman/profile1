@@ -324,6 +324,10 @@ button:hover{
     margin-bottom: 45px;
 }
 
+.my-slider{
+  overflow-y: hidden; 
+}
+
 /*
   ========================================
   Media queries
