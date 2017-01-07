@@ -349,6 +349,11 @@ button:hover{
   text-align: center;
 }
 
+.section2_right{
+  float: left;
+  width: 50%;
+}
+
 .sq {
   padding: 5px;
   border: 1px solid darkviolet;
@@ -472,6 +477,22 @@ hr{
   .meterText{
     font-size: 12px;
   }
+
+/*Section 1 */
+  .section2_left{
+  float: none;
+  width: 100%;
+}
+
+.section2_right{
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.well{
+  margin: 0 auto;
+}
 
 
 
