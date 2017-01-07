@@ -333,6 +333,16 @@ button:hover{
   color: white;
 }
 
+/*
+  ========================================
+  Section 2
+  ========================================
+*/
+
+.section2_left{
+  float: left;
+  width: 50%;
+}
 
 
 /*
@@ -412,6 +422,11 @@ button:hover{
   float: none;
   width: 100%;
 }
+
+/*skill set*/
+  .meterText{
+    font-size: 12px;
+  }
 
 
 
