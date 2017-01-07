@@ -339,6 +339,10 @@ button:hover{
   ========================================
 */
 
+.section2{
+  margin-bottom: 45px;
+}
+
 .section2_left{
   float: left;
   width: 50%;
@@ -351,7 +355,40 @@ button:hover{
   border-radius: 3px;
 }
 
+.well{
+  border-radius: 10px;
+  width: 450px;
+  background-color: lightskyblue;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
 
+hr{
+  border: 0;
+  border-top: 1px solid black;
+  margin: 0 10px;
+}
+
+.wh{
+  padding: 20px 0;
+}
+
+.wellHeader{
+  font-size: 28px;
+}
+
+.wellSubject{
+  font-size: 20px;
+}
+
+#wellButton{
+  padding: 10px;
+  font-size: 14px;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  border: 0px;  
+}
 
 /*
   ========================================
