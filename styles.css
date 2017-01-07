@@ -345,6 +345,12 @@ button:hover{
   text-align: center;
 }
 
+.sq {
+  padding: 5px;
+  border: 1px solid darkviolet;
+  border-radius: 3px;
+}
+
 
 
 /*
