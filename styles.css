@@ -397,6 +397,26 @@ hr{
 
 /*
   ========================================
+  Section 3
+  ========================================
+*/
+
+.section3{
+  margin-left: 15%;
+}
+
+.well_1{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 20%;
+  background-color: lightskyblue;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*
+  ========================================
   Media queries
   ========================================
 */
