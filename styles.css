@@ -505,6 +505,41 @@ hr{
   background-color: 36A059;
 }
 
+.well_3{
+  border-radius: 10px;
+  border: 1px solid #009D33;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.well_3header{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #009D33;
+  padding: 10px;
+}
+
+.well_3hr{
+  border: 0;
+  border-top: 1px solid #009D33;
+  margin: 0 20px;
+}
+
+#well_3Button{
+  padding: 10px;
+  font-size: 14px;
+  background-color: #009D33;
+  border-radius: 5px;
+  border: 0px; 
+}
+
+#well_3Button:hover{
+  background-color: 36A059;
+}
+
 /*
   ========================================
   Media queries
