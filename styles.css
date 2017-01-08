@@ -413,6 +413,7 @@ hr{
   height: auto;
   text-align: center;
   margin-top: 20px;
+  display: inline-block;
 }
 
 .well_header{
@@ -467,6 +468,41 @@ hr{
 
 #well_1Button:hover{
   background-color: #0040FF;
+}
+
+.well_2{
+  border-radius: 10px;
+  border: 1px solid #009D33;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.well_2header{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #009D33;
+  padding: 10px;
+}
+
+.well_2hr{
+  border: 0;
+  border-top: 1px solid #009D33;
+  margin: 0 20px;
+}
+
+#well_2Button{
+  padding: 10px;
+  font-size: 14px;
+  background-color: #009D33;
+  border-radius: 5px;
+  border: 0px; 
+}
+
+#well_2Button:hover{
+  background-color: 36A059;
 }
 
 /*
