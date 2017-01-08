@@ -441,6 +441,14 @@ hr{
   font-size: 36px;
 }
 
+.well_info{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.well_text{
+  font-size: 20px;
+}
 
 /*
   ========================================
