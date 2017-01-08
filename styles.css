@@ -416,7 +416,9 @@ hr{
 }
 
 .well_header{
-  border-radius: 10px;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-color: royalblue;
   padding: 10px;
 }
@@ -426,10 +428,10 @@ hr{
 }
 
 .circle {
-  margin: 0 auto;
+  margin: 20px auto;
 	width: 100px;
 	height: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
