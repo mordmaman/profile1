@@ -453,8 +453,20 @@ hr{
 
 .well_hr{
   border: 0;
-  border-top: 1px solid #C9F9FF;
+  border-top: 1px solid #4169E1;
   margin: 0 20px;
+}
+
+#well_1Button{
+  padding: 10px;
+  font-size: 14px;
+  background-color: #4169E1;
+  border-radius: 5px;
+  border: 0px; 
+}
+
+#well_1Button:hover{
+  background-color: #0040FF;
 }
 
 /*
