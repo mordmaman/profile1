@@ -443,11 +443,18 @@ hr{
 
 .well_info{
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .well_text{
   font-size: 20px;
+}
+
+.well_hr{
+  border: 0;
+  border-top: 1px solid #C9F9FF;
+  margin: 0 20px;
 }
 
 /*
