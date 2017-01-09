@@ -502,12 +502,12 @@ hr{
 }
 
 #well_2Button:hover{
-  background-color: 36A059;
+  background-color: #36A059;
 }
 
 .well_3{
   border-radius: 10px;
-  border: 1px solid #009D33;
+  border: 1px solid #C24EFF;
   width: 20%;
   height: auto;
   text-align: center;
@@ -518,7 +518,7 @@ hr{
 .well_3header{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #009D33;
+  background-color: #C24EFF;
   padding: 10px;
 }
 
@@ -531,13 +531,13 @@ hr{
 #well_3Button{
   padding: 10px;
   font-size: 14px;
-  background-color: #009D33;
+  background-color: #C24EFF;
   border-radius: 5px;
   border: 0px; 
 }
 
 #well_3Button:hover{
-  background-color: 36A059;
+  background-color: #8425B6;
 }
 
 /*
