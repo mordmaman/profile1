@@ -403,13 +403,24 @@ hr{
 
 .section3{
   margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 45px;
+}
+
+.left_wells{
+  width: 50%;
+  display: inline-block;
+}
+
+.right_wells{
+  width: 50%;
+  display: inline-block;
 }
 
 .well_1{
   border-radius: 10px;
   border: 1px solid royalblue;
-  width: 20%;
+  width: 40%;
   height: auto;
   text-align: center;
   margin-top: 20px;
@@ -473,10 +484,11 @@ hr{
 .well_2{
   border-radius: 10px;
   border: 1px solid #009D33;
-  width: 20%;
+  width: 40%;
   height: auto;
   text-align: center;
   margin-top: 20px;
+  margin-left: 7%;
   display: inline-block;
 }
 
@@ -508,10 +520,11 @@ hr{
 .well_3{
   border-radius: 10px;
   border: 1px solid #C24EFF;
-  width: 20%;
+  width: 40%;
   height: auto;
   text-align: center;
   margin-top: 20px;
+  margin-right: 7%;
   display: inline-block;
 }
 
@@ -544,7 +557,7 @@ hr{
 .well_4{
   border-radius: 10px;
   border: 1px solid #FF9F4B;
-  width: 20%;
+  width: 40%;
   height: auto;
   text-align: center;
   margin-top: 20px;
@@ -586,6 +599,20 @@ hr{
   /*skill set*/
   .meterText{
     font-size: 16px;
+  }
+
+  .section3{
+    margin-left: 21%;
+  }
+
+    .left_wells{
+    width: 100%;
+    display: block;
+  }
+
+  .right_wells{
+    width: 100%;
+    display: block;
   }
 }
 
