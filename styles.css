@@ -524,7 +524,7 @@ hr{
 
 .well_3hr{
   border: 0;
-  border-top: 1px solid #009D33;
+  border-top: 1px solid #C24EFF;
   margin: 0 20px;
 }
 
@@ -538,6 +538,42 @@ hr{
 
 #well_3Button:hover{
   background-color: #8425B6;
+}
+
+
+.well_4{
+  border-radius: 10px;
+  border: 1px solid #FF9F4B;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.well_4header{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #FF9F4B;
+  padding: 10px;
+}
+
+.well_4hr{
+  border: 0;
+  border-top: 1px solid #FF9F4B;
+  margin: 0 20px;
+}
+
+#well_4Button{
+  padding: 10px;
+  font-size: 14px;
+  background-color: #FF9F4B;
+  border-radius: 5px;
+  border: 0px; 
+}
+
+#well_4Button:hover{
+  background-color: #E97B1B;
 }
 
 /*
